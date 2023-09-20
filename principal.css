@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    border: 100px; 
+    width: 396px;
+    height: 315px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.button1{
+    width: 155px;
+    height: 30px;
+    position: relative;
+    left: 120px; 
+    font-weight: bold;  
+    background-color: #385898; 
+    border-color: #385898;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button2{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 150px;
+    font-weight: bold;
+    background-color: #42b72a;
+    display: inline-block;
+    cursor: pointer;
+    border-color: #42b72a;
+    color: #fff;
+
+}
+
+
+img{
+    height: 100px;
+}
+
+.texto{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    font-weight: normal;
+    color:#000000;
+    align-items: center;
+    position: center;
+    width: -10px;
+    height: -100px;
+}
+
+.link1{
+    color: #000000;
+    font-weight: bold;
+}
+
+.rodape{
+    background-color: #ffffff;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.email{
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    height: 30px;   
+}
+.senha{
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    height: 30px;
+}
